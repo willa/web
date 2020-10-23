@@ -13,13 +13,14 @@ const Privacy: NextPage = () => (
       <p className="text-sm text-gray-700 mt-2">
         Last updated on October 23, 2020
       </p>
+
       <h2 className="text-2xl font-semibold mt-8">Data collection</h2>
       <p className="mt-2">
         We collect the follow data about you to provide you with the service;
       </p>
       <ul className="list-disc ml-8 mt-2">
         <li>Your name (optional)</li>
-        <li>Your email address</li>
+        <li className="mt-2">Your email address</li>
       </ul>
       <h3 className="text-xl font-semibold mt-4">Your name</h3>
       <p className="mt-2">
