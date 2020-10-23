@@ -15,7 +15,7 @@ const Roadmap: NextPage = () => (
         sections have been released and the others are in development.
       </p>
 
-      <section className="mt-8">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold">Graphs &#8212; v3</h2>
         <ul className="list-disc ml-8 mt-2">
           <li>Graphs to make sense of your spending</li>
@@ -24,7 +24,7 @@ const Roadmap: NextPage = () => (
         </ul>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-12">
         <h2 className="text-2xl font-semibold">Collaboration &#8212; v2</h2>
         <ul className="list-disc ml-8 mt-2">
           <li>Invite, view, and remove users</li>
@@ -34,7 +34,7 @@ const Roadmap: NextPage = () => (
         </ul>
       </section>
 
-      <section className="mt-8">
+      <section className="mt-12">
         <header className="flex flex-col lg:flex-row items-start lg:items-center">
           <h2 className="text-2xl font-semibold">MVP &#8212; v1</h2>
           <div
