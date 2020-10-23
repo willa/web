@@ -14,7 +14,10 @@ body {
   @apply bg-white text-black font-sans cursor-default outline-none;
 }
 
-a {
+a,
+button {
+  @apply duration-200 outline-none;
+
   &:hover {
     filter: brightness(1.1);
   }
