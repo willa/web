@@ -15,7 +15,7 @@ export const Header: FunctionComponent = () => (
     </Link>
     <nav className="m-12">
       <a
-        className="leading-none rounded-full font-medium px-8 py-4"
+        className="text-black leading-none rounded-full font-medium px-8 py-4"
         href="#beta"
         onClick={(event) => event.preventDefault()}
         rel="noreferrer"
