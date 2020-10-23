@@ -16,7 +16,7 @@ body {
 
 a,
 button {
-  @apply duration-200 outline-none;
+  @apply text-teal-600 duration-200 outline-none;
 
   &:hover {
     filter: brightness(1.1);
@@ -62,7 +62,7 @@ form {
   }
 
   button {
-    @apply cursor-pointer rounded-full w-auto font-medium py-4 px-8;
+    @apply text-black cursor-pointer rounded-full w-auto font-medium py-4 px-8;
 
     background: linear-gradient(45deg, #d6bcfa, #e9d8fd);
   }

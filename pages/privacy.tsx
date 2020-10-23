@@ -51,7 +51,6 @@ const Privacy: NextPage = () => (
       <ul className="list-disc ml-8">
         <li className="mt-2">
           <a
-            className="text-teal-700"
             href="https://firebase.google.com/support/privacy"
             rel="noreferrer"
             target="_blank">
@@ -60,11 +59,7 @@ const Privacy: NextPage = () => (
           , for authentication and analytics
         </li>
         <li className="mt-2">
-          <a
-            className="text-teal-700"
-            href="https://sentry.io/privacy"
-            rel="noreferrer"
-            target="_blank">
+          <a href="https://sentry.io/privacy" rel="noreferrer" target="_blank">
             Sentry
           </a>
           , for crashes
