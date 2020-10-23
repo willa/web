@@ -1,0 +1,35 @@
+// fonts
+
+@import url('https://rsms.me/inter/inter.css');
+
+// tailwind
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// global
+
+body {
+  @apply bg-white text-black font-sans cursor-default outline-none;
+}
+
+a {
+  &:hover {
+    filter: brightness(1.1);
+  }
+
+  &:active {
+    filter: brightness(0.9);
+  }
+}
+
+// layout
+
+#__next {
+  @apply flex flex-col min-h-screen;
+
+  > main {
+    @apply flex flex-col flex-1 m-12;
+  }
+}
