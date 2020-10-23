@@ -33,13 +33,16 @@ const Privacy: NextPage = () => (
         We care about your privacy and will never share your personal details
         with anyone else.
       </p>
-      <h2 className="text-2xl font-semibold mt-8">Data storage</h2>
+
+      <h2 className="text-2xl font-semibold mt-12">Data storage</h2>
       <p className="mt-2">We store all your data in an encrypted database.</p>
-      <h2 className="text-2xl font-semibold mt-8">Cookies</h2>
+
+      <h2 className="text-2xl font-semibold mt-12">Cookies</h2>
       <p className="mt-2">
         We do not use cookies on our website or in our app.
       </p>
-      <h2 className="text-2xl font-semibold mt-8">Third party services</h2>
+
+      <h2 className="text-2xl font-semibold mt-12">Third party services</h2>
       <p className="mt-2">
         We use some third party services to help bring you a better experience
         with Willa. These include;
