@@ -34,7 +34,7 @@ const Home: NextPage = () => (
         />
         <img
           className="max-w-full lg:ml-12"
-          src="/img/screenshots/new-item.png"
+          src="/img/screenshots/item.png"
           style={{
             width: '20rem'
           }}
