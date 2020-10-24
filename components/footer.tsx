@@ -11,9 +11,6 @@ export const Footer: FunctionComponent = () => (
       <Link href="/help">
         <a className="text-gray-600 hover:text-gray-800 mt-2">Help</a>
       </Link>
-      <Link href="/roadmap">
-        <a className="text-gray-600 hover:text-gray-800 mt-2">Roadmap</a>
-      </Link>
       <Link href="/privacy">
         <a className="text-gray-600 hover:text-gray-800 mt-2">Privacy policy</a>
       </Link>

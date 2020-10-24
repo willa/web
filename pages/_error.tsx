@@ -13,7 +13,12 @@ const Error: NextPage<Props> = ({ code }) => (
     </Head>
 
     <main className="items-center justify-center text-center p-8">
-      <h1 className="text-5xl font-bold mb-8">{code || 'Error'}</h1>
+      <img
+        alt="Willa"
+        className="h-40 w-40 rounded-full bg-gray-100"
+        src="/img/willa.svg"
+      />
+      <h1 className="text-5xl font-bold my-8">{code || 'Error'}</h1>
       <h3 className="text-3xl font-semibold">Holy moly!</h3>
       {code === 404 ? (
         <>
