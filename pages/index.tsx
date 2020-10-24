@@ -20,21 +20,21 @@ const Home: NextPage = () => (
       <section className="mt-24 flex flex-col lg:flex-row items-center justify-center">
         <img
           className="max-w-full lg:mr-12"
-          src="/img/screenshots/items.png"
+          src="/img/screenshots/2-items.png"
           style={{
             width: '24rem'
           }}
         />
         <img
           className="max-w-full my-12 lg:my-0"
-          src="/img/screenshots/accounts.png"
+          src="/img/screenshots/1-accounts.png"
           style={{
             width: '30rem'
           }}
         />
         <img
           className="max-w-full lg:ml-12"
-          src="/img/screenshots/item.png"
+          src="/img/screenshots/3-item.png"
           style={{
             width: '20rem'
           }}
