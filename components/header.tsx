@@ -14,17 +14,15 @@ export const Header: FunctionComponent = () => (
       </a>
     </Link>
     <nav className="m-12">
-      <a
-        className="text-black leading-none rounded-full font-medium px-8 py-4"
-        href="#beta"
-        onClick={(event) => event.preventDefault()}
-        rel="noreferrer"
-        style={{
-          background: 'linear-gradient(45deg, #feb2b2, #fed7d7)'
-        }}
-        target="_blank">
-        Beta
-      </a>
+      <Link href="/beta">
+        <a
+          className="text-black leading-none rounded-full font-medium px-8 py-4"
+          style={{
+            background: 'linear-gradient(45deg, #feb2b2, #fed7d7)'
+          }}>
+          Beta
+        </a>
+      </Link>
     </nav>
   </header>
 )
