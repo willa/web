@@ -9,7 +9,7 @@ interface Props {
 const Error: NextPage<Props> = ({ code }) => (
   <>
     <Head>
-      <title>{code || 'Error'} / Homemade</title>
+      <title>{code || 'Error'} / Willa</title>
     </Head>
 
     <main className="items-center justify-center text-center p-8">

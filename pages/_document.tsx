@@ -1,7 +1,7 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import React from 'react'
 
-class Homemade extends Document {
+class Willa extends Document {
   render(): JSX.Element {
     return (
       <Html>
@@ -16,4 +16,4 @@ class Homemade extends Document {
   }
 }
 
-export default Homemade
+export default Willa
