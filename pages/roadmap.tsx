@@ -16,11 +16,13 @@ const Roadmap: NextPage = () => (
       </p>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-semibold">Graphs &#8212; v3</h2>
+        <h2 className="text-2xl font-semibold">
+          Data visualisation &#8212; v3
+        </h2>
         <ul className="list-disc ml-8 mt-2">
           <li>Graphs to make sense of your spending</li>
           <li className="mt-2">Daily, weekly, and monthly charts</li>
-          <li className="mt-2">Filter by time or categories</li>
+          <li className="mt-2">Filtering and sorting by time or categories</li>
         </ul>
       </section>
 
