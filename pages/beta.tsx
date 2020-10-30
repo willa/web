@@ -82,7 +82,7 @@ const Beta: NextPage = () => {
             />
           </label>
           <label>
-            <strong>How can we reach you?</strong>
+            <strong>Where should we send the invite?</strong>
             <input
               onChange={(event) => setEmail(event.target.value)}
               placeholder="Email"
