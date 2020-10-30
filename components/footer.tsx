@@ -14,6 +14,11 @@ export const Footer: FunctionComponent = () => (
       <Link href="/privacy">
         <a className="text-gray-600 hover:text-gray-800 mt-2">Privacy policy</a>
       </Link>
+      <a
+        className="text-gray-600 hover:text-gray-800 mt-2"
+        href="https://github.com/willa">
+        GitHub
+      </a>
     </nav>
   </footer>
 )
