@@ -40,17 +40,15 @@ const Help: NextPage = () => {
               return
             }
 
-            const form = new FormData()
-
-            form.append('name', name)
-            form.append('email', email)
-            form.append('reason', reason)
-            form.append('message', message)
-
-            await fetch('https://formspree.io/f/xnqodlev', {
-              body: form,
+            await fetch('https://flyfly.dev/f/ecnzg7', {
+              body: JSON.stringify({
+                email,
+                message,
+                name,
+                reason
+              }),
               headers: {
-                accept: 'application/json'
+                'content-type': 'application/json'
               },
               method: 'post'
             })

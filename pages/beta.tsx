@@ -39,16 +39,14 @@ const Beta: NextPage = () => {
               return
             }
 
-            const form = new FormData()
-
-            form.append('name', name)
-            form.append('email', email)
-            form.append('platform', platform)
-
-            await fetch('https://formspree.io/f/mqkgqnkd', {
-              body: form,
+            await fetch('https://flyfly.dev/f/bujjwg', {
+              body: JSON.stringify({
+                email,
+                name,
+                platform
+              }),
               headers: {
-                accept: 'application/json'
+                'content-type': 'application/json'
               },
               method: 'post'
             })
