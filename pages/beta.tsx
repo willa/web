@@ -39,7 +39,7 @@ const Beta: NextPage = () => {
               return
             }
 
-            await fetch('https://flyfly.dev/f/bujjwg', {
+            await fetch('https://flyfly.dev/f/yjh7qm', {
               body: JSON.stringify({
                 email,
                 name,

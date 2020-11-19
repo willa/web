@@ -40,7 +40,7 @@ const Help: NextPage = () => {
               return
             }
 
-            await fetch('https://flyfly.dev/f/ecnzg7', {
+            await fetch('https://flyfly.dev/f/z3ibjp', {
               body: JSON.stringify({
                 email,
                 message,
