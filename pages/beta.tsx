@@ -60,11 +60,8 @@ const Beta: NextPage = () => {
           }}>
           {done && (
             <div
-              className="rounded-full px-6 py-4 mb-12"
-              onClick={() => setDone(false)}
-              style={{
-                background: 'linear-gradient(45deg, #9ae6b4, #c6f6d5)'
-              }}>
+              className="bg-gradient-to-br from-green-200 to-green-300 rounded-xl px-6 py-4 mb-12"
+              onClick={() => setDone(false)}>
               Thank you for singing up! We&#39;re sending out invites all the
               time. Stay tuned for yours.
             </div>
