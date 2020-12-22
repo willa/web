@@ -13,12 +13,14 @@ export const Header: FunctionComponent = () => (
           src="/img/willa.svg"
           width={32}
         />
-        <span className="font-medium text-xl text-black ml-4">Willa</span>
+        <div className="font-medium font-display text-xl text-black ml-4">
+          Willa
+        </div>
       </a>
     </Link>
     <nav className="m-12">
       <Link href="/beta">
-        <a className="bg-gradient-to-br from-red-200 to-red-300 text-black hover:text-black rounded-full font-medium px-8 py-4">
+        <a className="bg-gradient-to-br from-red-200 to-red-300 transition-opacity hover:opacity-75 text-black hover:text-black rounded-full font-medium px-8 py-4">
           Beta
         </a>
       </Link>

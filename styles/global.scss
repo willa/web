@@ -54,7 +54,7 @@ form {
   }
 
   button {
-    @apply bg-gradient-to-br from-emerald-200 to-emerald-300 text-black cursor-pointer rounded-full w-auto font-medium py-4 px-8;
+    @apply bg-gradient-to-br from-emerald-200 to-emerald-300 transition-opacity hover:opacity-75 text-black cursor-pointer rounded-full w-auto font-medium py-4 px-8;
   }
 
   textarea {
