@@ -1,26 +1,17 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
-  future: {
-    purgeLayersByDefault: true,
-    removeDeprecatedGapUtilities: true
-  },
   plugins: [],
-  purge: ['./**/*.tsx', './assets/global.scss'],
+  purge: ['./**/*.tsx', './styles/*.scss'],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: [
-          'Inter',
-          '-apple-system',
-          'BlinkMacSystemFont',
-          'Segoe UI',
-          'Helvetica',
-          'Arial',
-          'sans-serif',
-          'Apple Color Emoji',
-          'Segoe UI Emoji'
-        ]
-      }
+    colors,
+    extend: {},
+    fontFamily: {
+      body: ['Inter', 'sans-serif'],
+      display: ['Poppins', 'sans-serif']
     }
   },
-  variants: {}
+  variants: {
+    extend: {}
+  }
 }

@@ -18,7 +18,7 @@ const Help: NextPage = () => {
       </Head>
 
       <main>
-        <h1 className="text-4xl font-semibold leading-tight">Help</h1>
+        <h1 className="text-4xl font-semibold">Help</h1>
         <p className="mt-2">
           If you need help using Willa or have some feedback, fill out this form
           and we&#39;ll get back to you soon!

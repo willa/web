@@ -17,7 +17,7 @@ const Beta: NextPage = () => {
       </Head>
 
       <main>
-        <h1 className="text-4xl font-semibold leading-tight">Beta</h1>
+        <h1 className="text-4xl font-semibold">Beta</h1>
         <p className="mt-2">
           If you&#39;re interested in beta testing Willa, please sign up using
           the form below.

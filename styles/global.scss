@@ -1,0 +1,63 @@
+// fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600&display=swap');
+
+// global
+
+body {
+  @apply bg-white text-black cursor-default outline-none;
+}
+
+a {
+  @apply text-teal-600 hover:text-teal-500 transition-colors outline-none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-display;
+}
+
+// layout
+
+#__next {
+  @apply flex flex-col min-h-screen max-w-6xl mx-auto;
+
+  > main {
+    @apply flex flex-col flex-1 m-12;
+  }
+}
+
+// components
+
+form {
+  label {
+    @apply block mb-8;
+
+    strong {
+      @apply block mb-2 font-medium;
+    }
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    @apply appearance-none bg-gray-100 rounded-lg p-4 max-w-full w-80;
+
+    &:focus {
+      @apply outline-none;
+    }
+  }
+
+  button {
+    @apply bg-gradient-to-br from-emerald-200 to-emerald-300 text-black cursor-pointer rounded-full w-auto font-medium py-4 px-8;
+  }
+
+  textarea {
+    @apply resize-none h-24;
+  }
+}

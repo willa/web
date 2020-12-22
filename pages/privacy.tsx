@@ -1,5 +1,6 @@
 import { NextPage } from 'next'
 import Head from 'next/head'
+import Link from 'next/link'
 import React from 'react'
 
 const Privacy: NextPage = () => (
@@ -9,7 +10,7 @@ const Privacy: NextPage = () => (
     </Head>
 
     <main>
-      <h1 className="text-4xl font-semibold leading-tight">Privacy policy</h1>
+      <h1 className="text-4xl font-semibold">Privacy policy</h1>
       <p className="text-sm text-gray-700 mt-2">
         Last updated on October 23, 2020
       </p>
@@ -50,18 +51,19 @@ const Privacy: NextPage = () => (
       </p>
       <ul className="list-disc ml-8">
         <li className="mt-2">
-          <a
-            href="https://firebase.google.com/support/privacy"
-            rel="noreferrer"
-            target="_blank">
-            Firebase
-          </a>
+          <Link href="https://firebase.google.com/support/privacy">
+            <a rel="noreferrer" target="_blank">
+              Firebase
+            </a>
+          </Link>
           , for authentication and analytics
         </li>
         <li className="mt-2">
-          <a href="https://sentry.io/privacy" rel="noreferrer" target="_blank">
-            Sentry
-          </a>
+          <Link href="https://sentry.io/privacy">
+            <a rel="noreferrer" target="_blank">
+              Sentry
+            </a>
+          </Link>
           , for crashes
         </li>
       </ul>

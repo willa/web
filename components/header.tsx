@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React, { FunctionComponent } from 'react'
 
@@ -5,21 +6,19 @@ export const Header: FunctionComponent = () => (
   <header className="flex items-center justify-between">
     <Link href="/">
       <a className="flex items-center m-12">
-        <img
+        <Image
           alt="Willa"
-          className="h-8 w-8 rounded-full bg-gray-100 mr-4"
+          className="rounded-full bg-gray-100"
+          height={32}
           src="/img/willa.svg"
+          width={32}
         />
-        <span className="font-medium text-xl text-black">Willa</span>
+        <span className="font-medium text-xl text-black ml-4">Willa</span>
       </a>
     </Link>
     <nav className="m-12">
       <Link href="/beta">
-        <a
-          className="text-black leading-none rounded-full font-medium px-8 py-4"
-          style={{
-            background: 'linear-gradient(45deg, #feb2b2, #fed7d7)'
-          }}>
+        <a className="bg-gradient-to-br from-red-200 to-red-300 text-black hover:text-black rounded-full font-medium px-8 py-4">
           Beta
         </a>
       </Link>

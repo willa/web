@@ -1,22 +1,17 @@
-import '../assets/global.scss'
+import '../styles/tailwind.scss'
+import '../styles/global.scss'
 
-import App from 'next/app'
-import React from 'react'
+import { AppProps } from 'next/app'
+import React, { FunctionComponent } from 'react'
 
 import { Footer, Header } from '../components'
 
-class Willa extends App {
-  render(): JSX.Element {
-    const { Component, pageProps } = this.props
-
-    return (
-      <>
-        <Header />
-        <Component {...pageProps} />
-        <Footer />
-      </>
-    )
-  }
-}
+const Willa: FunctionComponent<AppProps> = ({ Component, pageProps }) => (
+  <>
+    <Header />
+    <Component {...pageProps} />
+    <Footer />
+  </>
+)
 
 export default Willa
