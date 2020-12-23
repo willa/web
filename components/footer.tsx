@@ -10,7 +10,7 @@ export const Footer: FunctionComponent = () => (
           href="https://vercel.com/?utm_source=willapay&amp;utm_campaign=oss"
           rel="noreferrer"
           target="_blank">
-          <img className="h-6" src="/img/powered-by-vercel.svg" />
+          <img src="/img/powered-by-vercel.svg" />
         </a>
       </div>
     </div>
